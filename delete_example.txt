@@ -1,0 +1,5 @@
+# Example direct DELETE
+curl -X DELETE \
+  https://<K8S_API_SERVER>/api/v1/namespaces/default/pods/mypod \
+  --header "Authorization: Bearer <TOKEN>" \
+  --insecure               
